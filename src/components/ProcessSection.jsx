@@ -36,7 +36,7 @@ export default function ProcessSection({ onOpenEnrollment }) {
   return (
     <section className="relative py-24 bg-[#0a0c12] border-b border-white/5 overflow-hidden">
       {/* Background Watermark */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 aentoria-ghost-title opacity-10 pointer-events-none">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 aentoria-ghost-title pointer-events-none">
         METHODOLOGY
       </div>
 

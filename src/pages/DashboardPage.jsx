@@ -264,8 +264,8 @@ export default function DashboardPage({ onOpenEnrollment }) {
                 </p>
                 <div className="pt-2 border-t border-white/5 flex items-center justify-between text-xs">
                   <span className="text-gray-400">Direct WhatsApp:</span>
-                  <a href="https://api.whatsapp.com/send?phone=919014506271" target="_blank" rel="noreferrer" className="text-lime-400 font-mono font-semibold hover:underline">
-                    +91 9014506271
+                  <a href="https://api.whatsapp.com/send?phone=918861788812" target="_blank" rel="noreferrer" className="text-lime-400 font-mono font-semibold hover:underline">
+                    +91 8861788812
                   </a>
                 </div>
               </div>

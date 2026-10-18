@@ -78,7 +78,7 @@ export default function Footer({ setActivePage, onOpenEnrollment }) {
             )}
             <div className="flex items-center gap-4 mt-3 text-xs text-gray-500">
               <span>✓ Weekly MNC off-campus digest</span>
-              <span>✓ Direct support: +91 9014506271</span>
+              <span>✓ Direct support: +91 8861788812</span>
             </div>
           </div>
         </div>
@@ -119,8 +119,8 @@ export default function Footer({ setActivePage, onOpenEnrollment }) {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-lime-400 flex-shrink-0" />
-                <a href="tel:+919014506271" className="font-mono text-white font-bold hover:text-lime-400 transition">
-                  +91 9014506271
+                <a href="tel:+918861788812" className="font-mono text-white font-bold hover:text-lime-400 transition">
+                  +91 8861788812
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
@@ -217,12 +217,12 @@ export default function Footer({ setActivePage, onOpenEnrollment }) {
               </li>
               <li>
                 <a 
-                  href="https://api.whatsapp.com/send?phone=919014506271&text=Hello%20Jnan-Vexa%20Technologies,%20I%20am%20interested%20in%20courses%20and%20placement%20details."
+                  href="https://api.whatsapp.com/send?phone=918861788812&text=Hello%20Jnan-Vexa%20Technologies,%20I%20am%20interested%20in%20courses%20and%20placement%20details."
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-white transition text-emerald-400 font-medium flex items-center gap-1"
                 >
-                  <MessageCircle className="w-3.5 h-3.5" /> WhatsApp: +91 9014506271
+                  <MessageCircle className="w-3.5 h-3.5" /> WhatsApp: +91 8861788812
                 </a>
               </li>
               <li>
@@ -246,7 +246,7 @@ export default function Footer({ setActivePage, onOpenEnrollment }) {
             © {new Date().getFullYear()} <span className="text-gray-300 font-semibold">Jnan-Vexa Technologies</span>. All rights reserved.
           </div>
           <div className="flex items-center space-x-6">
-            <a href="tel:+919014506271" className="hover:text-lime-400 transition font-mono">+91 9014506271</a>
+            <a href="tel:+918861788812" className="hover:text-lime-400 transition font-mono">+91 8861788812</a>
             <a href="mailto:jnanvexatechnologies@gmail.com" className="hover:text-blue-400 transition font-mono">jnanvexatechnologies@gmail.com</a>
             <a href="#contact" onClick={() => navigateTo('contact')} className="hover:text-gray-300 transition">Admissions Desk</a>
           </div>

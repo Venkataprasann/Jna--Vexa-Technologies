@@ -39,7 +39,7 @@ export default function EnrollmentModal({ isOpen, onClose, selectedCourseId = nu
 _Submitted via Jnan-Vexa Official Website_`;
 
     const encodedText = encodeURIComponent(leadText);
-    const waUrl = `https://api.whatsapp.com/send?phone=919014506271&text=${encodedText}`;
+    const waUrl = `https://api.whatsapp.com/send?phone=918861788812&text=${encodedText}`;
 
     // Email dispatch
     const emailSubject = encodeURIComponent(`New Course Enrollment: ${formData.name} - ${selectedCourse.title}`);
@@ -103,7 +103,7 @@ _Submitted via Jnan-Vexa Official Website_`;
               <div className="p-4 rounded-2xl bg-black/50 border border-white/10 text-left max-w-md mx-auto space-y-2 text-xs">
                 <div className="flex items-center justify-between text-gray-300">
                   <span className="text-gray-400">Official Mobile (WhatsApp):</span>
-                  <span className="text-white font-mono font-bold">+91 9014506271</span>
+                  <span className="text-white font-mono font-bold">+91 8861788812</span>
                 </div>
                 <div className="flex items-center justify-between text-gray-300">
                   <span className="text-gray-400">Official Admissions Email:</span>
@@ -124,7 +124,7 @@ _Submitted via Jnan-Vexa Official Website_`;
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition shadow-lg"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  <span>Send to WhatsApp (+91 9014506271)</span>
+                  <span>Send to WhatsApp (+91 8861788812)</span>
                 </a>
 
                 <a
@@ -153,7 +153,7 @@ _Submitted via Jnan-Vexa Official Website_`;
               
               {/* Notification Banner */}
               <div className="p-3 rounded-xl bg-blue-950/30 border border-blue-500/20 text-xs text-blue-300 flex items-center justify-between">
-                <span>Direct notification sent to <strong>+91 9014506271</strong> &amp; <strong>jnanvexatechnologies@gmail.com</strong></span>
+                <span>Direct notification sent to <strong>+91 8861788812</strong> &amp; <strong>jnanvexatechnologies@gmail.com</strong></span>
               </div>
 
               {/* Course Selection */}
@@ -281,7 +281,7 @@ _Submitted via Jnan-Vexa Official Website_`;
 
               <div className="pt-2 flex items-center justify-between gap-4">
                 <span className="text-[11px] text-gray-400">
-                  ⚡ Auto-routes to +91 9014506271 &amp; admissions email.
+                  ⚡ Auto-routes to +91 8861788812 &amp; admissions email.
                 </span>
                 <button
                   type="submit"

@@ -14,7 +14,7 @@ export default function HeroSection({ setActivePage, onOpenEnrollment }) {
 
       {/* 2. Authentic Aentoria Giant Ghost Watermark Title rising behind the hills */}
       <div className="absolute bottom-28 sm:bottom-48 left-0 right-0 text-center pointer-events-none z-0">
-        <span className="text-[14vw] font-black uppercase tracking-tight text-white/20 leading-none select-none drop-shadow-sm">
+        <span className="text-[14vw] font-black uppercase tracking-tight text-white/35 leading-none select-none drop-shadow-sm">
           JNAN-VEXA
         </span>
       </div>

@@ -148,8 +148,8 @@ export default function Navbar({ activePage, setActivePage, onOpenEnrollment }) 
               </button>
 
               <div className="flex items-center justify-between text-xs text-gray-600 px-2 pt-1 font-mono">
-                <a href="tel:+919014506271" className="flex items-center gap-1 hover:text-black">
-                  <Phone className="w-3.5 h-3.5 text-blue-600" /> +91 9014506271
+                <a href="tel:+918861788812" className="flex items-center gap-1 hover:text-black">
+                  <Phone className="w-3.5 h-3.5 text-blue-600" /> +91 8861788812
                 </a>
                 <span className="text-[11px] text-gray-500">
                   jnanvexatechnologies@gmail.com

@@ -26,7 +26,7 @@ export default function TopCoursesSection({ setActivePage, onOpenEnrollment }) {
   return (
     <section className="relative py-24 bg-[#080808] border-b border-white/5 overflow-hidden">
       {/* Background Watermark */}
-      <div className="absolute top-12 right-0 aentoria-ghost-title opacity-20 pointer-events-none">
+      <div className="absolute top-12 right-0 aentoria-ghost-title pointer-events-none">
         PROGRAMS
       </div>
 

@@ -29,7 +29,7 @@ export default function ContactPage() {
 _Submitted from Contact Page_`;
 
     const encodedText = encodeURIComponent(leadText);
-    const waUrl = `https://api.whatsapp.com/send?phone=919014506271&text=${encodedText}`;
+    const waUrl = `https://api.whatsapp.com/send?phone=918861788812&text=${encodedText}`;
 
     const emailSubject = encodeURIComponent(`Inquiry from ${formData.name} - Jnan-Vexa Technologies`);
     const emailBody = encodeURIComponent(leadText);
@@ -84,7 +84,7 @@ _Submitted from Contact Page_`;
               <div className="space-y-4 text-xs">
                 {/* Phone */}
                 <a 
-                  href="tel:+919014506271" 
+                  href="tel:+918861788812" 
                   className="flex items-center gap-3 p-4 rounded-2xl bg-black/40 border border-white/5 hover:border-lime-400/40 transition group"
                 >
                   <div className="w-10 h-10 rounded-xl bg-lime-400/10 border border-lime-400/20 flex items-center justify-center text-lime-400 group-hover:scale-110 transition">
@@ -92,7 +92,7 @@ _Submitted from Contact Page_`;
                   </div>
                   <div>
                     <span className="text-gray-400 block">Direct Mobile / WhatsApp:</span>
-                    <span className="text-white font-mono font-bold text-sm">+91 9014506271</span>
+                    <span className="text-white font-mono font-bold text-sm">+91 8861788812</span>
                   </div>
                 </a>
 
@@ -112,7 +112,7 @@ _Submitted from Contact Page_`;
 
                 {/* WhatsApp Chat button */}
                 <a 
-                  href="https://api.whatsapp.com/send?phone=919014506271&text=Hello%20Jnan-Vexa%20Technologies,%20I%20want%20to%20know%20more%20about%20your%20software%20courses."
+                  href="https://api.whatsapp.com/send?phone=918861788812&text=Hello%20Jnan-Vexa%20Technologies,%20I%20want%20to%20know%20more%20about%20your%20software%20courses."
                   target="_blank" 
                   rel="noreferrer"
                   className="flex items-center justify-between p-4 rounded-2xl bg-emerald-950/20 border border-emerald-500/30 text-emerald-300 font-semibold hover:bg-emerald-950/40 transition"
@@ -155,7 +155,7 @@ _Submitted from Contact Page_`;
                   </div>
                   <h3 className="text-2xl font-bold text-white">Inquiry Sent Successfully!</h3>
                   <p className="text-sm text-gray-300 max-w-md mx-auto leading-relaxed">
-                    Thank you, <span className="text-white font-semibold">{formData.name}</span>! Your inquiry has been dispatched to <span className="text-lime-400 font-mono">+91 9014506271</span> and <span className="text-blue-400 font-mono">jnanvexatechnologies@gmail.com</span>.
+                    Thank you, <span className="text-white font-semibold">{formData.name}</span>! Your inquiry has been dispatched to <span className="text-lime-400 font-mono">+91 8861788812</span> and <span className="text-blue-400 font-mono">jnanvexatechnologies@gmail.com</span>.
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-4">
@@ -166,7 +166,7 @@ _Submitted from Contact Page_`;
                       className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-emerald-600 text-white font-bold text-xs shadow-lg hover:bg-emerald-500 transition"
                     >
                       <MessageCircle className="w-4 h-4" />
-                      <span>Chat on WhatsApp (+91 9014506271)</span>
+                      <span>Chat on WhatsApp (+91 8861788812)</span>
                     </a>
                     <a
                       href={mailUrl}
@@ -264,7 +264,7 @@ _Submitted from Contact Page_`;
 
                   <div className="pt-2 flex items-center justify-between">
                     <span className="text-[11px] text-gray-500">
-                      🔒 Dispatches directly to +91 9014506271.
+                      🔒 Dispatches directly to +91 8861788812.
                     </span>
                     <button
                       type="submit"

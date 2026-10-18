@@ -11,7 +11,7 @@ export default function BentoSection({ onOpenEnrollment, setActivePage }) {
   return (
     <section className="relative py-24 bg-[#080808] border-b border-white/5 overflow-hidden">
       {/* Background Watermark */}
-      <div className="absolute top-8 left-8 aentoria-ghost-title opacity-10 pointer-events-none">
+      <div className="absolute top-8 left-8 aentoria-ghost-title pointer-events-none">
         COMMUNITY
       </div>
 

@@ -70,14 +70,14 @@ function App() {
       {/* Floating Quick Action Buttons */}
       <div className="fixed bottom-6 right-6 z-30 flex flex-col items-end gap-3 select-none">
         <a
-          href="https://api.whatsapp.com/send?phone=919014506271&text=Hello%20Jnan-Vexa%20Technologies,%20I%20want%20to%20know%20more%20about%20your%20software%20courses%20and%20placement%20assistance."
+          href="https://api.whatsapp.com/send?phone=918861788812&text=Hello%20Jnan-Vexa%20Technologies,%20I%20want%20to%20know%20more%20about%20your%20software%20courses%20and%20placement%20assistance."
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#12161f] border border-white/10 hover:border-emerald-500/50 text-white text-xs font-bold shadow-2xl backdrop-blur-md hover:scale-105 transition group"
         >
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
           <MessageCircle className="w-4 h-4 text-emerald-400" />
-          <span className="hidden sm:inline">WhatsApp: +91 9014506271</span>
+          <span className="hidden sm:inline">WhatsApp: +91 8861788812</span>
         </a>
 
         <button
