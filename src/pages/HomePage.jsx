@@ -19,66 +19,69 @@ export default function HomePage({ setActivePage, onOpenEnrollment }) {
       {/* 2. Marquee Ticker */}
       <MarqueeTicker />
 
-      {/* 3. Authentic Aentoria About Section (with Software Auto Slider in place of second photo) */}
-      <section className="py-24 bg-[#f4f5f0] text-gray-900 relative overflow-hidden">
+      {/* 3. Authentic Aentoria About Section (with Software Auto Slider) */}
+      <section className="py-14 sm:py-20 lg:py-24 bg-[#f4f5f0] text-gray-900 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Section Header */}
-          <div className="mb-16">
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/5 border border-black/10 text-gray-800 text-xs font-bold uppercase tracking-wider mb-4">
-              <Sparkles className="w-3.5 h-3.5 text-blue-600" /> Jnan-Vexa Technologies
+          <div className="mb-10 sm:mb-14">
+            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/5 border border-black/10 text-gray-800 text-xs font-bold uppercase tracking-wider mb-3">
+              <Sparkles className="w-3.5 h-3.5 text-blue-600" /> About Jnan-Vexa Technologies
             </span>
-            <h2 className="text-3xl sm:text-5xl font-black text-gray-950 tracking-tight max-w-3xl leading-[1.12]">
-              Empowering students & engineers with intelligent software skills for a smarter digital future
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-gray-950 tracking-tight max-w-3xl leading-[1.12]">
+              Real Code. Live Projects. Guaranteed Placement Support.
             </h2>
+            <p className="mt-3 text-sm sm:text-base text-gray-600 max-w-2xl leading-relaxed">
+              We train students, graduates, and working software professionals on in-demand technologies through immersive hands-on labs, 1-on-1 mentorship, and direct MNC hiring pipelines.
+            </p>
           </div>
 
           {/* Grid matching Aentoria in preview image */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
             
-            {/* Left Image: Replaced with Software Auto Slider (No arrows, auto-sliding software images) */}
-            <div className="lg:col-span-5">
+            {/* Left Image: Software Auto Slider (No arrows, auto-sliding software images) */}
+            <div className="lg:col-span-5 w-full">
               <SoftwareAutoSlider />
             </div>
 
             {/* Right Side Cards */}
-            <div className="lg:col-span-7 space-y-8">
+            <div className="lg:col-span-7 space-y-6 sm:space-y-8">
               
               {/* Testimonial Quote with Avatar Stack */}
-              <div className="flex items-center gap-4 bg-white p-5 rounded-2xl shadow-sm border border-black/5">
+              <div className="flex items-center gap-4 bg-white p-4 sm:p-5 rounded-2xl shadow-sm border border-black/5">
                 <div className="flex -space-x-2 overflow-hidden flex-shrink-0">
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-white object-cover"
                     src="/images/authers-image-2.avif"
-                    alt="Author 1"
+                    alt="Trainee Avatar"
                   />
                   <div className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center text-xs font-bold ring-2 ring-white">
-                    +4k
+                    4.2k
                   </div>
                 </div>
                 <p className="text-xs sm:text-sm text-gray-700 italic font-medium leading-relaxed">
-                  "Working with Jnan-Vexa completely transformed our software careers with enterprise microservices, AI architectures, and verified placement support."
+                  "Jnan-Vexa helped me transition from a non-IT background to a high-paying Java Full-Stack developer role within 5 months. The practical coding drills and mock interviews made all the difference."
                 </p>
               </div>
 
               {/* Two Cards Side-by-Side matching Aentoria */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 
-                {/* Card 1: White Card with 450+ Trusted Partners and scrolling tags */}
-                <div className="bg-white p-7 rounded-3xl shadow-sm border border-black/5 flex flex-col justify-between space-y-4">
+                {/* Card 1: 450+ Trusted Partners and scrolling tags */}
+                <div className="bg-white p-5 sm:p-7 rounded-3xl shadow-sm border border-black/5 flex flex-col justify-between space-y-3">
                   <div>
                     <div className="flex items-baseline gap-1">
-                      <span className="text-4xl sm:text-5xl font-black text-gray-950">450</span>
-                      <span className="text-3xl font-bold text-blue-600">+</span>
+                      <span className="text-3xl sm:text-5xl font-black text-gray-950">450</span>
+                      <span className="text-2xl sm:text-3xl font-bold text-blue-600">+</span>
                     </div>
                     <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mt-1">
-                      Trusted Hiring MNCs
+                      Hiring MNC Partners
                     </p>
                   </div>
 
                   {/* Tags Pill Cloud */}
-                  <div className="flex flex-wrap gap-1.5 pt-2">
-                    {["Spring AI", "Kafka", "Docker", "Kubernetes", "Next.js", "GenAI"].map((t, idx) => (
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    {["Java 21", "Spring Boot", "Microservices", "Kafka", "AWS Cloud", "Docker", "GenAI"].map((t, idx) => (
                       <span key={idx} className="px-2.5 py-1 text-[11px] font-semibold rounded-full bg-gray-100 text-gray-700">
                         {t}
                       </span>
@@ -87,42 +90,42 @@ export default function HomePage({ setActivePage, onOpenEnrollment }) {
                 </div>
 
                 {/* Card 2: Signature Lime Green Card matching Aentoria */}
-                <div className="bg-[#cdfb56] p-7 rounded-3xl shadow-md border border-lime-400 flex flex-col justify-between space-y-4 text-black">
+                <div className="bg-[#cdfb56] p-5 sm:p-7 rounded-3xl shadow-md border border-lime-400 flex flex-col justify-between space-y-3 text-black">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-black uppercase tracking-widest text-black/70">
-                      JNAN-VEXA
+                      CAREER ASSISTANCE
                     </span>
                     <span className="w-2.5 h-2.5 rounded-full bg-black"></span>
                   </div>
 
                   <div>
                     <div className="flex items-baseline gap-1">
-                      <span className="text-4xl sm:text-5xl font-black text-black">2,850</span>
-                      <span className="text-3xl font-bold text-black">+</span>
+                      <span className="text-3xl sm:text-5xl font-black text-black">100</span>
+                      <span className="text-2xl sm:text-3xl font-bold text-black">%</span>
                     </div>
                     <p className="text-xs font-extrabold text-black/80 mt-1 uppercase tracking-wider">
-                      Alumni Placed Worldwide
+                      Placement Assistance
                     </p>
                   </div>
 
                   <p className="text-xs text-black/80 font-medium leading-relaxed">
-                    Collaborating with leading AI, cloud, and Fortune 500 technology employers.
+                    Resume optimization, unlimited mock interviews with technical leads, and direct interview calls.
                   </p>
                 </div>
 
               </div>
 
               {/* Action Button */}
-              <div className="pt-2">
+              <div className="pt-1">
                 <button
                   onClick={() => {
                     setActivePage('about');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-black text-white hover:bg-gray-800 font-bold text-xs transition-all shadow-md group"
+                  className="inline-flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-black text-white hover:bg-gray-800 active:scale-95 font-bold text-xs transition-all shadow-md group"
                 >
-                  <span>Explore Our Story & Campus Labs</span>
-                  <div className="w-6 h-6 rounded-full bg-[#cdfb56] text-black flex items-center justify-center group-hover:rotate-45 transition-transform">
+                  <span>Know More About Our Training Methodology</span>
+                  <div className="w-6 h-6 rounded-full bg-[#cdfb56] text-black flex items-center justify-center group-hover:rotate-45 transition-transform flex-shrink-0">
                     <ArrowUpRight className="w-3.5 h-3.5 stroke-[2.5]" />
                   </div>
                 </button>

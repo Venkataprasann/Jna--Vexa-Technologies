@@ -63,12 +63,12 @@ export default function SoftwareAutoSlider() {
               alt={img.alt}
               className={`w-full h-full ${
                 img.isLogo
-                  ? 'object-cover scale-105'
+                  ? 'object-contain p-4 bg-[#030818]'
                   : 'object-cover transition-transform duration-700 hover:scale-105'
               }`}
             />
             {/* Gradient overlay for text legibility */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/20"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/20 pointer-events-none"></div>
 
             {/* Clean caption overlay at bottom */}
             <div className="absolute bottom-5 left-5 right-5 z-20">

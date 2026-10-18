@@ -30,20 +30,20 @@ export default function Navbar({ activePage, setActivePage, onOpenEnrollment }) 
         {/* Floating Capsule Bar matching Aentoria */}
         <div className="bg-white/95 text-gray-900 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 shadow-2xl border border-gray-200/80 flex items-center justify-between transition-all">
           
-          {/* Brand Logo & Full Institute Name placed in the reclaimed space */}
+          {/* Brand Logo & Institute Name */}
           <button 
             onClick={() => handleNavClick('home')}
-            className="flex items-center gap-2.5 sm:gap-3 group text-left focus:outline-none flex-shrink-0"
+            className="flex items-center gap-2 sm:gap-3 group text-left focus:outline-none flex-shrink-0"
           >
-            <div className="flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl overflow-hidden bg-black p-0.5 group-hover:scale-105 transition-transform flex-shrink-0 shadow-sm border border-gray-200/60">
+            <div className="flex items-center justify-center h-9 w-9 sm:h-11 sm:w-11 rounded-xl overflow-hidden bg-[#030818] p-0.5 group-hover:scale-105 transition-transform flex-shrink-0 shadow-md border border-blue-500/30">
               <img
-                src="/images/jnan-vexa-logo.png"
-                alt="Jnan-Vexa Technologies Logo"
-                className="w-full h-full object-cover"
+                src="/images/jv-letters.png"
+                alt="JV - Jnan-Vexa Technologies"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-sm sm:text-base font-black tracking-tight text-gray-950 group-hover:text-blue-600 transition uppercase leading-tight">
+              <span className="text-xs sm:text-base font-black tracking-tight text-gray-950 group-hover:text-blue-600 transition uppercase leading-tight">
                 Jnan-Vexa Technologies
               </span>
               <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest hidden sm:block">

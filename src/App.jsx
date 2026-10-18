@@ -52,21 +52,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#080808] text-gray-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
-      
-      {/* Top Banner Notice */}
-      <div className="bg-gradient-to-r from-blue-950 via-slate-900 to-blue-950 border-b border-blue-500/20 py-2 px-4 text-center text-xs text-blue-200">
-        <span className="inline-flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-lime-400 animate-pulse"></span>
-          <span><strong>October 2026 Admissions Open:</strong> Enterprise Java GenAI &amp; Cloud DevOps Batches! Direct Support: <strong>+91 9014506271</strong></span>
-          <button
-            onClick={() => handleOpenEnrollment()}
-            className="underline font-bold text-white hover:text-lime-300 ml-1 inline-flex items-center"
-          >
-            Claim Early Bird Scholarship ›
-          </button>
-        </span>
-      </div>
+    <div className="min-h-screen bg-[#080808] text-gray-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white overflow-x-hidden">
+
 
       {/* Main Navbar */}
       <Navbar 

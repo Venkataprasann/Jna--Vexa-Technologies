@@ -26,7 +26,7 @@ export default function AchievementsPage({ onOpenEnrollment }) {
             Our Achievements, Awards & Milestone Records
           </h1>
           <p className="text-sm sm:text-base text-gray-400">
-            Over a decade and a half of engineering excellence, recognized by national education bodies and corporate technology partners.
+            Engineering excellence recognized by industry leaders, corporate technology partners, and leading software hiring panels.
           </p>
         </div>
 

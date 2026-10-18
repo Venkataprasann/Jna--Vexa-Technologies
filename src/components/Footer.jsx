@@ -88,15 +88,25 @@ export default function Footer({ setActivePage, onOpenEnrollment }) {
           
           {/* Institute Info */}
           <div className="col-span-2 md:col-span-4 lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-2">
-              <img
-                src="/images/jnan-vexa-logo.png"
-                alt="Jnan-Vexa Technologies Logo"
-                className="h-10 w-auto object-contain"
-              />
+            <div className="flex items-center gap-3">
+              <div className="h-10 w-10 rounded-xl overflow-hidden bg-[#030818] p-0.5 border border-blue-500/30 flex-shrink-0 shadow-md">
+                <img
+                  src="/images/jv-letters.png"
+                  alt="JV Logo"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-extrabold text-white text-base tracking-tight uppercase leading-tight">
+                  Jnan-Vexa Technologies
+                </span>
+                <span className="text-[10px] text-gray-400 font-semibold tracking-wider uppercase">
+                  Software Training Institute
+                </span>
+              </div>
             </div>
             <p className="text-xs text-gray-400 leading-relaxed max-w-sm">
-              Empowering students and seasoned software engineers with deep enterprise skills, AI architecture, and 100% placement assistance across 450+ global MNCs.
+              Empowering students and software engineers with deep enterprise skills, Generative AI, and 100% placement assistance across 450+ global MNCs.
             </p>
             <div className="pt-2 space-y-2 text-xs text-gray-300">
               <div className="flex items-start gap-2.5">
